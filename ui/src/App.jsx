@@ -40,10 +40,18 @@ const App = () => {
   }, []);
 
   return (
-    <main>
+    <main style={{
+        fontFamily: 'Arial'
+    }}>
       <header>
         <h1>Cześć!</h1>
         <h2>Masz 2 nieopłacone faktury</h2>
+        <p style={{
+            padding: '16px 8px',
+            border: '1px solid black',
+            borderRadius: '8px',
+            width: 'max-content'
+        }}>SALDO: -420,21 PLN</p>
         <p>
           Opłać je przelewem na numer konta:{" "}
           <strong>PL83109024029587372996371156</strong>
